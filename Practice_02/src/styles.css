@@ -1,0 +1,19 @@
+.styled-list {
+  margin-top:20px;
+}
+
+.styled-list > li {
+  margin-left: 20px;
+  font-size:1.1rem;
+  font-weight: 500;
+}
+
+#quotes-title,
+#sources-title{
+  text-indent: 30px;
+  text-decoration: underline;
+}
+
+#sources-title {
+  margin-top:40px;
+}
