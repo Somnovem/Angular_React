@@ -1,0 +1,89 @@
+@import 'mixin';
+
+#company-name {
+  text-transform: uppercase;
+}
+
+#button-new-ad {
+  color:black;
+  background-color: yellow;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-right: 20px;
+}
+
+#button-new-ad + a {
+  text-decoration: none;
+}
+
+#button-inner-plus {
+  font-size:1.5rem;
+}
+
+#input-container {
+  margin: 30px auto;
+  padding: 15px 20px;
+  background-color: lightblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.flexible-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.fas.fa-icon {
+  flex: 0 0 30%;
+  font-size: 24px;
+}
+
+.text {
+  flex: 0 0 70%;
+  padding-left: 20px;
+}
+
+.col-4 > a {
+  text-decoration: none;
+}
+
+.store-item {
+  padding: 15px 20px;
+  border: 1px solid darkgray;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.btn-details {
+  background-color: cadetblue;
+  color:white;
+  font-size:1.02rem;
+  font-weight: 500;
+}
+
+#btn-other-ads {
+  background:none;
+  border-color:#86b3bc;
+  color:#86b3bc;
+  width:80%;
+  margin-bottom:10px;
+}
+
+#btn-other-ads:hover{
+  color:white;
+  background-color: #86b3bc;
+}
+
+#btn-complain {
+  margin-left: 20px;
+  margin-top:10px
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

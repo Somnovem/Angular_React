@@ -1,0 +1,11 @@
+#monologue-container {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+#monologue-start {
+  text-decoration:underline;
+  font-size:1.2rem;
+}
