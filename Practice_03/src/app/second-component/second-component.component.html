@@ -1,0 +1,33 @@
+<p [ngStyle]="{'color':textColor,'font-size.px':fontSize}">
+  Lorem ipsum dolor sit amet.
+</p>
+
+<p [ngClass]="isSpecial?'red':'blue'">
+  Dolor sit amet lorem ipsum.
+</p>
+
+<!--Контролируем явку елементов по перменным(маскирует ng-directive) -->
+<!--Создали шаблон по локальному референсу #isShown и показуем его если не показываем по !isSpecial -->
+<p *ngIf="!isSpecial; else isShown">
+  Hello from the ngIf diretive
+</p>
+
+<ng-template #isShown>
+  <p>This is the template</p>
+  <h2>Lorem ipsum.</h2>
+</ng-template>
+
+<h1 style="border-top:3px groove black;">Student grades:</h1>
+<ul *ngFor="let student of students">
+  <li>
+    <h2>{{student.name}} {{student.lastname}}</h2>
+    <h2>Grade: <b>{{student.grade}}</b></h2>
+    <hr>
+  </li>
+</ul>
+
+<div [ngSwitch]="fontSize">
+  <ng-template [ngSwitchCase]="10">This is number 10</ng-template>
+  <ng-template [ngSwitchCase]="18">This is number 18</ng-template>
+  <ng-template ngSwitchDefault="20">Default case</ng-template>
+</div>
