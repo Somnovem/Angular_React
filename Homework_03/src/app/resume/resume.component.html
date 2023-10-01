@@ -1,0 +1,54 @@
+<div class="container resume">
+  <div class="resume-title">
+    <h1>Zhmura Artem</h1>
+    <p>Web Developer, Desktop Developer, Student of KPI</p>
+  </div>
+  <div class="row">
+    <div class="col-md-7 row info">
+      <div class="col-md-9">
+        <h2>Fullname</h2>
+        <p>Zhmura Artem Anatoliyovich</p>
+
+        <h2>Phone Number</h2>
+        <p>+380969510899</p>
+
+        <h2>Email</h2>
+        <p>artem.zhmura606@gmail.com</p>
+
+        <h2>Currently living in</h2>
+        <p>Mykolaiv</p>
+
+        <h2>Experience</h2>
+        <p>
+          No commercial experience <br>
+          Made a <a style="color:black;" href="https://github.com/Somnovem/Exams/tree/main/Exam2">Testing System</a> in C++ <br>
+          Made a <a style="color:black;" href="https://github.com/Somnovem/Exams/tree/main/DownoloadManager">Download Manager</a> in C# WPF <br>
+          Made a <a style="color:black;" href="https://github.com/Somnovem/UnityDashPong">Local Network Game</a> in Unity<br>
+        </p>
+
+        <h2>Skills</h2>
+        <p>B2+ English, Can work under pressure, Familiar with Agile, Basic knowledge of Git,<br>
+          Experienced with C++, C#, Java, JS, Python, TSQL, SQLite</p>
+
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-3">
+      <img [src]="imgSrc" alt="My Photo" class="img-fluid">
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="https://github.com/Somnovem">
+          <img [src]="gitIcoSrc" alt="Git" (mouseenter)="gitIco_MouseOver()" (mouseleave)="gitIco_MouseLeave()">
+        </a>
+        <a href="https://www.instagram.com/zhmurartm/">
+          <img [src]="instaIcoSrc" alt="Insta" (mouseover)="instaIco_MouseOver()" (mouseleave)="instaIco_MouseLeave()">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
