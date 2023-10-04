@@ -1,0 +1,7 @@
+<app-buttons-task3 (onClicked)="onChanged($event)"></app-buttons-task3>
+<div class="container">
+  <h1>{{currentInfo.name}}</h1>
+  <hr id="divider-line">
+  <img [src]="currentInfo.photo" [alt]="currentInfo.name" style="width:100%;">
+  <h5 style="margin-top:20px;">{{currentInfo.description}}</h5>
+</div>
