@@ -7,13 +7,16 @@
     <div class="col-md-7 row info">
       <div class="col-md-9">
         <h2>Fullname</h2>
-        <p>Zhmura Artem Anatoliyovich</p>
+        <p [ngClass]="isNameHovered ? 'big-text' : ''" (mouseenter)="nameHoveredChanged()" (mouseleave)="nameHoveredChanged()">Zhmura Artem Anatoliyovich</p>
+
+        <h2>Birthday</h2>
+        <p>{{birthday|date|uppercase}}</p>
 
         <h2>Phone Number</h2>
         <p>+380969510899</p>
 
         <h2>Email</h2>
-        <p>artem.zhmura606@gmail.com</p>
+        <p [ngStyle]="{'text-decoration':isEmailHovered ? 'underline' : 'none'}" (mouseenter)="emailHoveredChanged()" (mouseleave)="emailHoveredChanged()">artem.zhmura606@gmail.com</p>
 
         <h2>Currently living in</h2>
         <p>Mykolaiv</p>
@@ -21,10 +24,11 @@
         <h2>Experience</h2>
         <p>
           No commercial experience <br>
-          <span *ngFor="let project of projects">
-            Made a <a style="color:black;" [href]="project.githubLink">{{project.projectName}}</a> in {{project.languages}} <br>
-          </span>
+          <app-my-projects [projects]="projects"></app-my-projects>
         </p>
+
+        <h2>Employment status</h2>
+        <p>{{employmentStatus|lowercase}}</p>
 
         <h2>Skills</h2>
         <p>B2+ English, Can work under pressure, Familiar with Agile, Basic knowledge of Git,<br>

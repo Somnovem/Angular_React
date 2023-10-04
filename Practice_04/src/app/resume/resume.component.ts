@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent {
+  birthday:Date = new Date(2006,7,3);
   imgSrc: string = "./assets/imgs/selfie.png";
   gitIcoSrc: string = "./assets/imgs/git.png";
   instaIcoSrc: string = "./assets/imgs/insta.png";
 
+  isEmailHovered:boolean = false;
+  employmentStatus:string = 'currently unemployed';
+  isNameHovered: boolean = false;
   projects: {githubLink:string, projectName:string, languages: string}[] = [
 
     {
@@ -28,7 +32,7 @@ export class ResumeComponent {
       languages: "Unity"
     }
 
-    ]
+  ]
   gitIco_MouseOver(){
     this.gitIcoSrc = "./assets/imgs/git_alt.png";
   }
@@ -43,5 +47,13 @@ export class ResumeComponent {
 
   instaIco_MouseLeave(){
     this.instaIcoSrc = "./assets/imgs/insta.png";
+  }
+
+  emailHoveredChanged() {
+    this.isEmailHovered = !this.isEmailHovered;
+  }
+
+  nameHoveredChanged() {
+    this.isNameHovered = !this.isNameHovered;
   }
 }
