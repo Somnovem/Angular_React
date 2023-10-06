@@ -1,0 +1,23 @@
+<div class="photo-wrapper">
+  <img class="photo-background" id="background-image" [src]="currentWonder.imageUrl" alt="Background Image">
+  <div class="container">
+    <div class="row">
+      <div class="col-1 d-flex justify-content-center align-items-center">
+        <button *ngIf="(currentWonderIndex-1) >= 0" (click)="prevWonder()">
+          <fa-icon icon="arrow-left-long"></fa-icon>
+        </button>
+      </div>
+      <div class="col-10">
+        <div class="photo-content">
+          <h1>{{currentWonder.name|titlecase}}</h1>
+          <p>{{currentWonder.description}}</p>
+        </div>
+      </div>
+      <div class="col-1 d-flex justify-content-center align-items-center">
+        <button *ngIf="(currentWonderIndex+1) < wondersLength" (click)="nextWonder()">
+          <fa-icon icon="arrow-right-long"></fa-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

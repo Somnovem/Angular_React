@@ -1,0 +1,48 @@
+.photo-wrapper {
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-wrapper button {
+  background: none;
+  border:none;
+  color:white;
+  transform: scale(2);
+}
+
+.photo-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index:-1;
+}
+
+.photo-content {
+  text-align: center;
+  font-family: "Segoe UI";
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.photo-content h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.photo-content p {
+  font-size: 28px;
+  font-weight: 400;
+
+}

@@ -1,0 +1,6 @@
+#divider-line {
+  border:none;
+  height:6px;
+  background-color: #000;
+  border-radius: 15px;
+}
