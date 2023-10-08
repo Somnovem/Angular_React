@@ -1,0 +1,43 @@
+#wrapper {
+  width:100%;
+  padding:20px 30px;
+  border: 1px solid darkgray;
+  border-radius: 15px;
+  margin:10px auto;
+}
+
+#main-painting {
+  width:40vw;
+  margin:20px auto;
+}
+
+#other-paintings-container {
+  width:100%;
+  padding:10px 20px;
+  border:1px solid black;
+  border-radius: 15px;
+  display:flex;
+  justify-content: space-around;
+}
+
+#other-paintings-container > button,
+#all-paintings-container > button{
+  border:none;
+  background:none;
+}
+
+#other-paintings-container > button,
+#other-paintings-container > button > img{
+  height:100px;
+  width:150px;
+}
+
+#all-paintings-container > button {
+  margin:10px 20px;
+}
+
+#all-paintings-container > button,
+#all-paintings-container > button > img{
+  height:200px;
+  width:250px;
+}

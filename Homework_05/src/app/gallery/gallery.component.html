@@ -1,0 +1,27 @@
+<div class="container row" id="wrapper">
+  <div class="col-9">
+    <div class="d-flex">
+      <img [src]="currentPainting.imageUrl" [alt]="currentPainting.title" id="main-painting">
+    </div>
+    <div id="other-paintings-container">
+      <button *ngFor="let painting of otherPaintingByCurrentAuthor" (click)="choosePainting(painting.title,painting.author)">
+        <img [src]="painting.imageUrl" [alt]="painting.title" >
+      </button>
+
+    </div>
+  </div>
+  <div class="col-3 d-flex flex-column">
+    <h2>{{currentPainting.title|titlecase}}</h2>
+    <hr style="border:none;height:3px;background-color: black;width:80%;border-radius: 10px;margin:10px auto;">
+    <h4>Painted in: <b>{{currentPainting.year}}</b></h4>
+    <h4>Author: <b>{{currentPainting.author}}</b></h4>
+    <h4>Dimensions: <b>{{currentPainting.dimensions}}</b></h4>
+    <h4>Located in: <b>{{currentPainting.location|titlecase}}</b></h4>
+  </div>
+  <h1 class="text-center" style="font-family: 'Segoe UI'">All paintings:</h1>
+  <div id="all-paintings-container">
+    <button *ngFor="let painting of allPaintings" (click)="choosePainting(painting.title,painting.author)">
+      <img [src]="painting.imageUrl" [alt]="painting.title" >
+    </button>
+  </div>
+</div>
