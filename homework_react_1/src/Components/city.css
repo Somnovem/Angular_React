@@ -1,0 +1,10 @@
+.ImageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ImageContainer > img {
+    width:250px;
+    height:150px;
+    margin:10px 20px;
+}
