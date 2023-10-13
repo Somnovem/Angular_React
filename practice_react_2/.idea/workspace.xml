@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04baca9f-d222-4083-b8b5-b9757265b0d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../homework_react_1/src/Components/band.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework_react_1/src/Components/book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework_react_1/src/Components/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework_react_1/src/Components/recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/Components/biography.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/Components/city.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/Components/city.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/Components/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/src/Components/react-advantages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework_react_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +18,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2Wg0qZf8AOI613nPTxgYLRJy9g0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/Angular_React/practice_react_2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Angular_React/practice_react_2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697139106721</updated>
       <workItem from="1697139107853" duration="364000" />
+      <workItem from="1697192066197" duration="20000" />
     </task>
     <servers />
   </component>

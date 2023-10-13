@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f74442fc-57f5-4e3b-8f82-3d653e05f501" name="Changes" comment="" />
+    <list default="true" id="8a783167-62af-44f0-a8bf-d8fea46ed654" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/biography.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/film.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/pet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework_react_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice_react_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_react_2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -24,11 +30,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2WegjqgZ0q2D1EMr1S0C7RLKmvO" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2WhkDnJhCU3B5na9eXwPHKi0kYQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +45,6 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Projects/Angular_React/homework_react_2",
-    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,17 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f74442fc-57f5-4e3b-8f82-3d653e05f501" name="Changes" comment="" />
-      <created>1697098597410</created>
+      <changelist id="8a783167-62af-44f0-a8bf-d8fea46ed654" name="Changes" comment="" />
+      <created>1697192082014</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697098597410</updated>
-      <workItem from="1697098599788" duration="1372000" />
-      <workItem from="1697115415604" duration="8365000" />
-      <workItem from="1697125007280" duration="141000" />
-      <workItem from="1697128533352" duration="561000" />
-      <workItem from="1697185124609" duration="883000" />
-      <workItem from="1697192062759" duration="20000" />
+      <updated>1697192082014</updated>
+      <workItem from="1697192083145" duration="4880000" />
     </task>
     <servers />
   </component>
