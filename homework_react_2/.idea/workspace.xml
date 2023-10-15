@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a783167-62af-44f0-a8bf-d8fea46ed654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/biography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/clock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/film.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/pet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_react_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_react_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice_react_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice_react_2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a783167-62af-44f0-a8bf-d8fea46ed654" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WhkDnJhCU3B5na9eXwPHKi0kYQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/Angular_React/homework_react_2",
+    "last_opened_file_path": "D:/Projects/Angular_React/practice_react_3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697192082014</updated>
       <workItem from="1697192083145" duration="4880000" />
+      <workItem from="1697313965661" duration="19000" />
     </task>
     <servers />
   </component>
