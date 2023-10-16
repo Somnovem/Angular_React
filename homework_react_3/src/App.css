@@ -1,0 +1,49 @@
+@import 'bootstrap';
+
+#wrapper {
+    margin: 2vh auto;
+    padding:0;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    color:white;
+}
+
+#wrapper > .col-1:first-child {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 15px 0 0 15px;
+}
+
+#wrapper > .col-1:last-child {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 0 15px 15px 0;
+}
+
+#wrapper > .col-1 > button {
+    border:none;
+    background:none;
+    transform:scale(2);
+    color:white;
+}
+
+#wrapper > .col-10 {
+    padding:20px;
+    text-shadow:
+            -1px -1px 0 rgba(255,255,255,0.2),
+            1px -1px 0 rgba(255,255,255,0.2),
+            -1px 1px 0 rgba(255,255,255,0.2),
+            1px 1px 0 rgba(255,255,255,0.2);
+}
+
+#magic-ball-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height:400px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}

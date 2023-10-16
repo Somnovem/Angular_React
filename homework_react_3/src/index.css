@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gannett-cdn.com%2F-mm-%2Faafbe7639d6b16f8b9ca50c52ad05a3531dec88b%2Fc%3D49-0-3511-1956%2Flocal%2F-%2Fmedia%2F2017%2F07%2F14%2FTennGroup%2FMurfreesboro%2F636356449715033284-MURBrd-09-21-2016-DNJ-1-B003--2016-09-20-IMG-NASBrd-07-05-2016-Te-3-1-HUFPJPA1-L885968596-IMG-NASBrd-07-05-2016-Te-3-1-HUFPJPA1.jpg%3Fwidth%3D3200%26height%3D1680%26fit%3Dcrop&f=1&nofb=1&ipt=964c62ff4b6ac5e13b33b9c04a07a2eb0b5dfe12d4b8b0aed1e08ae63793ba45&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
