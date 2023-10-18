@@ -1,0 +1,21 @@
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.image-item {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.form-group {
+  margin:10px;
+}
