@@ -1,0 +1,25 @@
+.image-item {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  border:1px groove darkgray;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.form-group {
+  margin:10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
