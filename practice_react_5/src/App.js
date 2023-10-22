@@ -1,5 +1,5 @@
 import './App.css';
-import StarWarsCharacters from "./Components/StarWarsCharacters";
+import StarWarsCharacters from "./Components/StarWars/StarWarsCharacters";
 
 function App() {
   return(

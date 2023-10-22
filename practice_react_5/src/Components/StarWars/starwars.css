@@ -1,0 +1,15 @@
+#accordion-wrapper {
+    background: rgba(95, 191, 255, 0.7);
+    border:10px groove rgba(82, 166, 222, 0.76);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.accordion-item {
+    background: none;
+    color:white;
+    font-weight: bolder;
+    background: rgba(95, 191, 255, 0.6);
+    border:none;
+    font-family: "Cascadia Code";
+}
